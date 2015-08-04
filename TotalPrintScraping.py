@@ -174,4 +174,4 @@ def do_the_billing_parse_job():
 
 
 	print st," TotalPrintScraping. INFO: Billling page scanning completed. Database updated succesfully\n"
-	sys.exit(0)
+	return 0

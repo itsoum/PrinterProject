@@ -173,7 +173,7 @@ def do_the_log_parse_job():
 	ts = time.time()
 	st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 	print st," LogPageParser.  INFO: Jobs' page scanning completed. Database updated succesfully\n"
-	sys.exit(0)
+	return 0 
     
 
 

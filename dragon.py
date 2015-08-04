@@ -16,7 +16,6 @@ try:
 except SystemExit as e:
 	ret = e
 
-
 if ret !=0:
 	ts = time.time()
 	st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
