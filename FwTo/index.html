@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Φω.Το. | Σύστημα Χρεώσεων</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/yeti.bootstrap.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- navbar start -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" title='Λεφτά, λεφτά, λεφτά...!'><i class="fa fa-print"></i> | Σύστημα Χρεώσεων</a>
+    </div>
+
+    <div class="navbar-collapse collapse">  
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="menu.php">Τιμοκατάλογος</a>
+            </li>
+            <li>
+                <a href="help.php">Οδηγίες</a>
+            </li>
+            <li>
+                <a href="contact.php">Επικοινωνία</a>
+            </li>
+            <li>
+                <a href="who.php">Ποιοι είμαστε</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-ok-circleglyphicon glyphicon-user"></span> <span class="caret"></span> </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="index.html">Είσοδος</a></li>
+              <li class="divider"></li>
+              <li><a href="register.php">Εγγραφή</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </div> 
+</div>
+
+<!-- navbar end -->
+
+<!-- login form start -->
+
+
+<div class="container">
+
+<div class="row">
+  <div class="col-lg-6 col-lg-offset-3">
+    <div class="well bs-component">
+      <form class="form-horizontal" action="check.php" method="post">
+        <fieldset>
+          <legend>Είσοδος</legend>
+          <div class="form-group">
+            <div class="col-lg-6 col-lg-offset-3">
+              <input type="text" class="form-control" id="inputEmail" name="username" placeholder="Αναγνωριστικό">
+            </div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-lg-6 col-lg-offset-3">
+              <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Κωδικός">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="col-lg-9 col-lg-offset-3">
+              <button type="reset" class="btn btn-default">Ακύρωση</button>
+              <button type="submit" class="btn btn-primary" name="submitform">Πάμε!</button>
+            </div>
+          </div>
+          </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- login form end -->
+
+</div>
+
+<!-- footer start -->
+
+<div class="container">
+
+<br>
+
+<footer>
+        <div class="row">
+          <div class="col-lg-12">
+
+            
+            <p class="text-center"><small>Made by <a href="http://thomaspark.co" rel="nofollow">Xrfr</a>. Contact them at Niko30 celar!<br>
+            Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.<br>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</small></p>
+
+          </div>
+        </div>
+
+      </footer>
+</div>
+
+<!-- footer end -->
+
+</body>
+</html>
